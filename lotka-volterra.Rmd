@@ -69,7 +69,7 @@ class(approx_lk)
 approx_lk_df <- data.frame(approx_lk) %>% 
   pivot_longer(cols = c(x,y), names_to = "species", values_to = "population")
 
-# Plot it! 
+# Plot it! use
 ggplot(data = approx_lk_df, aes(x = time, y = population)) +
   geom_line(aes(color = species))
 ```
