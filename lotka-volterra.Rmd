@@ -76,6 +76,8 @@ ggplot(data = approx_lk_df, aes(x = time, y = population)) +
 
 ## Updating parameter values
 
+updating through github
+
 What happens as you change the different parameters (and re-run the entire code chunk)? How does that align with what you see in the graph? Some things to keep in mind:
 
 -   $\alpha$ is a growth rate for prey
